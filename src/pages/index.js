@@ -130,6 +130,11 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Walkers Properties and Lettings</title>
+      <nav>
+        <ul>
+          <li> <a href="/about"> About Page </a></li>
+        </ul>
+      </nav>
       <h1> Walkers Properties and Lettings</h1>
       <p> Landlord specialising in DSS and Social Housing and Accomodation </p>
       <h2> Offering Service to Tenants and Landlords </h2>
@@ -139,6 +144,8 @@ const IndexPage = () => {
         <li>Eviction Consultation</li>
         <li>Rennovation</li>
       </ul>
+
+
       
     </main>
   )

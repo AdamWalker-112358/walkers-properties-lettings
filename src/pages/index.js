@@ -1,5 +1,5 @@
 import * as React from "react"
-import Navigation from "../components/navigation"
+import Layout from "../components/layout"
 
 // styles
 const pageStyles = {
@@ -129,10 +129,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Walkers Properties and Lettings</title>
-      <Navigation></Navigation>
-      <h1> Walkers Properties and Lettings</h1>
+    <Layout pageTitle="Walkers Properties and Lettings" style={pageStyles}>
       <p> Landlord specialising in DSS and Social Housing and Accomodation </p>
       <h2> Offering Service to Tenants and Landlords </h2>
       <ul>
@@ -140,11 +137,8 @@ const IndexPage = () => {
         <li>Rent Collections</li>
         <li>Eviction Consultation</li>
         <li>Rennovation</li>
-      </ul>
-
-
-      
-    </main>
+      </ul>      
+    </Layout>
   )
 }
 

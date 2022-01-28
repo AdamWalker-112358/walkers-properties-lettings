@@ -1,13 +1,12 @@
 import React from "react";
-import Navigation from "../components/navigation";
+import Layout from "../components/layout";
 
 
 const AboutPage = () => {
     return (
-        <main>
-            <Navigation></Navigation>
-            <h1>About Walkers Properties and Lettings</h1>
-        </main>
+        <Layout pageTitle="About Walkers Properties and Lettings">
+            <p> Walkers Properties and lettings was established in 1990 by Martin and Rivi Walkers when they recognized there was a housing crisis in the social housing space</p>
+        </Layout>
     )
 }
 

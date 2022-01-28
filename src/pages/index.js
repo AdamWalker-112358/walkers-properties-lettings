@@ -131,9 +131,9 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Walkers Properties and Lettings
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}>Welcome to the Walkers Website</span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>

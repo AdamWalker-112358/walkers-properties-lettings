@@ -1,0 +1,24 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html, body, * {
+    padding: 0;
+    margin: 0;
+}
+
+.navigationStyles {
+    background-color: blue;
+    color:white;
+    border: 1px solid black;
+    padding: 15px;
+    list-style: none;
+    display: flex; justify-content: flex-start; gap: 15px;
+
+}
+
+a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}

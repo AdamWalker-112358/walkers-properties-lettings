@@ -1,7 +1,6 @@
 
 .section {
     padding: 60px;
-    background-color: yellow; 
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.397);
     width: 100%;
 }

@@ -11,6 +11,7 @@ a {
     text-decoration: none;
     letter-spacing: initial;
     font-weight: 100;
+    color: unset;
 }
 
 a:visited {

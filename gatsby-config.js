@@ -1,10 +1,19 @@
 module.exports = {
     siteMetadata: {
-      title: `Walkers Properties & Lettings`,
-        siteUrl: `https://www.walkers4u.com`,
+      tabText: `Walkers`,
+      pageTitle: `Walkers Properties & Lettings Page Title`,
+      title: `Walkers Properties & Lettings Title`,
+      siteUrl: `https://www.walkers4u.com`,
     },
     plugins: [
       "gatsby-plugin-image",
       "gatsby-plugin-sharp",
+      {
+        resolve: "gatsby-source-filesystem",
+        options: {
+          name: `blog`,
+          path: `${__dirname}/blog`,
+        }
+      },
     ]
 }

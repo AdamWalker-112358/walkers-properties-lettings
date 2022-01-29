@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import {StaticImage} from "gatsby-plugin-image"
 
 // styles
 const pageStyles = {
@@ -130,8 +131,13 @@ const links = [
 const IndexPage = () => {
   return (
     <Layout pageTitle="Walkers Properties and Lettings" style={pageStyles}>
-      <p> Landlord specialising in DSS and Social Housing and Accomodation </p>
+    
       <h2> Offering Service to Tenants and Landlords </h2>
+      <StaticImage
+        src="../images/tree.jpeg"
+        alt="An image of a tree"
+      ></StaticImage>
+      <p> Landlord specialising in DSS and Social Housing and Accomodation </p>
       <ul>
         <li>Property Management</li>
         <li>Rent Collections</li>

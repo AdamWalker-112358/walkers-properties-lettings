@@ -4,6 +4,7 @@ module.exports = {
         siteUrl: `https://www.walkers4u.com`,
     },
     plugins: [
-
+      "gatsby-plugin-image",
+      "gatsby-plugin-sharp",
     ]
 }

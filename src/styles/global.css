@@ -1,6 +1,15 @@
-* {
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --primary-color: #223499;
+    font-size: 16px;
 }
+
+* {
+    font-family:'Fira Sans', sans-serif;
+    box-sizing: border-box;
+}
+
 
 html, body, * {
     padding: 0;
@@ -8,8 +17,9 @@ html, body, * {
 }
 
 body {
-    max-width: 900px;
-    margin: auto;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 h1 {
@@ -35,11 +45,6 @@ p {
     letter-spacing: 1px;
 }
 
-.gatsby-image-wrapper img {
-    max-height: 300px;
-
-}
-
 ul {
     /* list-style: none; */
     font-weight: 100;
@@ -53,10 +58,8 @@ ul li {
     margin-left: 30px;
 }
 
-
-
-.layout .main-container {
-    display: flex; flex-wrap: wrap;
+.layout {
+    
 }
 
 

@@ -1,16 +1,17 @@
 import React from "react";
 import {Link} from "gatsby";
+import ContactButton from "./contact";
 import './navigation.css';
 
 
 
 
 const Navigation = ()=> {return(
-    <nav >
+  <nav >
     <ul className="navigationStyles">
-        <li> <Link to="/">Home Page</Link></li>
-        <li> <Link to="/about">About Page</Link></li>
-        <li> <Link to="/blog">Blog Page</Link></li>
+      <li> <Link to="/" activeClassName="active">Home</Link></li>
+      <li> <Link to="/about" activeClassName="active">Landlords</Link></li>
+      <li><ContactButton negative="true"></ContactButton></li>
     </ul>
   </nav>
 )}

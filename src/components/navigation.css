@@ -11,9 +11,13 @@ a {
     text-decoration: none;
     letter-spacing: initial;
     font-weight: 100;
-    color: unset;
+    color: white;
 }
 
-a:visited {
-    color: unset;
+
+
+
+
+.active {
+    border-bottom: 1px solid rgb(75, 75, 75)
 }

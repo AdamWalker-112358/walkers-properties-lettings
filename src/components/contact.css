@@ -1,0 +1,21 @@
+.negative-contact-button {
+    border: white solid 1px;
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: 300;
+    padding: 10px 20px;
+}
+
+
+.contact-button {
+    border: var(--primary-color) solid 1px;
+    background-color: var(--primary-color);
+    
+    font-weight: 300;
+    padding: 10px 20px;
+}
+
+
+#contact-button {
+    color: white;
+}

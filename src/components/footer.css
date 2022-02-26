@@ -1,0 +1,32 @@
+
+.footer {
+    
+    background-color: var(--primary-color);
+    
+    width: 100vw;
+    height: 370px;
+    padding: 10px 30px;
+
+    display: flex;
+    place-items: center; place-content: space-between;
+
+    position: relative; bottom: 0;
+    z-index: 999;
+}
+
+.footer address {
+    color: white;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
